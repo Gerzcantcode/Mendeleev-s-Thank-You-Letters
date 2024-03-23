@@ -1,0 +1,301 @@
+/*Design*/
+body{
+    background: linear-gradient( #000020,#200020,#000020)
+
+}
+
+H1 {
+    color: white;
+    
+}
+
+.container {
+    background: linear-gradient( #000030, #300030, #300015);
+    width: 40rem;
+    border-radius: 50px 0 0 50px;
+    overflow-y: scroll;
+    height: 60vh;
+    scroll-behavior: smooth;
+    padding-bottom: 20;
+}
+
+.container::-webkit-scrollbar-track {
+    background-color: #000030;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: linear-gradient( #000020, #002020);
+    border-radius: 10px;
+}
+
+.mail {
+    display: flex;
+    width: 90%;
+    height: 17vh;
+    background-color: #400040;
+    border-radius: 0 50px 50px 0;
+    border-style: solid;
+    border-color: #350035;
+    border-width: 0.4rem;
+}
+
+.name {
+    color: white;
+    height: 5em;
+    font-size: 1.6em;
+}
+
+.pfp {
+    aspect-ratio: 1/1;
+    height: 5em;
+    width: auto;
+    border-radius: 0px 100px 100px 0px;
+    padding-left: 3%
+}
+
+.arrow {
+    font-size: 1.5em;
+    height: 2em;
+    width: 2em;
+    background-color: #400040;
+    color: #400040;
+    border-radius: 50%;
+}
+
+/*Format*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+}
+
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    position: relative;
+}
+
+.mail {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pn_cont {
+    display: flex;
+    align-items: center;
+    width: 33em;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    justify-self: flex-start;
+}
+
+.pfp {
+    justify-self: end;
+}
+
+.arrow {
+    display: flex;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #300030;
+    color: black;
+}
+
+/*Hover*/
+
+.mail:hover {
+    transform: translateY(-10px);
+    width: 99%;
+    transition: .2s;
+}
+
+.mail:hover .arrow {
+    background-color: black;
+    color: #300030;
+    transition: .2s;
+    width: 4em;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 10%;
+    right: -1rem;
+}
+
+/*.mail:hover:after .arrow {
+    content: "--->";
+    font-size: 1.5em;
+    background-color: black;
+    color: #300030; 
+    padding-left: ;
+}*/
+
+/*Letter*/
+/*Design*/
+.letter {
+    Background: linear-gradient( #000020, #200020, #200005);
+    filter: blur(70);
+    width: 50rem;
+    max-height: 80vh;
+    border: solid 0.2rem black; 
+}
+
+.mess {
+    margin-bottom: 10%;
+    overflow: scroll;
+    max-height: 50vh;
+    scroll-behavior: smooth;
+}
+
+.letter::webkit-scrollbar-track {
+    background: none;
+}
+
+.letter::webkit-scrollbar-thumb {
+    Background: linear-gradient( #000020, #200020, #200005);
+}
+
+.pfpl {
+    width: 7%;
+    margin-right: 70%;
+    margin-top: 5%;
+    border-radius: 100px;
+}
+
+.Message {
+    color: white;
+    margin: 10%;
+    font-size: 200%;
+}
+
+.p {
+    position: relative;
+    left: -27%;
+}
+
+#p {
+    display: flex;
+    position: relative;
+    left: -%;
+    width: 70%;
+}
+
+#pp {
+    display: flex;
+    position: relative;
+    left: -%;
+    width: 50%;
+}
+
+#ppp {
+    display: flex;
+    position: relative;
+    left: -%;
+    width: 55%;
+}
+
+#pppp {
+    display: flex;
+    position: relative;
+    left: -%;
+    width: 55%;
+}
+
+.ebut {
+    background: none;
+    border-width: 0;
+    color: white;
+    font-size: 200%
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100dvh;
+    width: 100dvw;
+    background: linear-gradient( #000020, #200020, #200005);
+    transform: translate(0, 0) scale(1);
+    z-index: 19;
+    justify-self: center;
+    bottom: -1%;
+    align-content: center
+}
+
+.introduction-p {
+    margin-top: 9vh;
+    height: 20%;
+    width: 45vh;
+    align-self: center;
+    justify-self: center;
+    color: white;
+    font-size: 3dvh
+}
+
+.warning-cont {
+    background-color: red;
+    border: solid .2rem darkred;
+    height: 20%;
+    width: 50vh;
+    align-self: center;
+    justify-self: center;
+}
+
+.warning-l, .warning{
+    font-size: 3dvh
+}
+
+.cont-btn {
+    position: relative;
+    top: 10%;
+    background-color: darkred;
+    font-size: 3dvh
+}
+
+/*Format*/ 
+
+.letter{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 20;
+}
+
+#pic {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 20;
+}
+
+/*Active*/
+
+.popup_pic.active #pic {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(.5)
+}
+
+
+.popup.active .letter {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.introduction_cont.active .introduction {
+    transform: translate(0, 0) scale(0);
+}
